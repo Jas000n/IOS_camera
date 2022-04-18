@@ -6,7 +6,7 @@ recognize travel code in real time
 
 2. 什么是机器学习、目标检测
 
-3. 用xcode的creatML工具进行机器学习
+
 
 
 
@@ -54,15 +54,7 @@ recognize travel code in real time
 
 <img src="https://tva1.sinaimg.cn/large/e6c9d24egy1h1dqxoe17wj20wo0dj77y.jpg" alt="2020112019245715" style="zoom:80%;" />
 
-#### 3. 手把手带大家入门creatML
 
-##### 3.1 创建项目
-
-##### 3.2 导入数据集
-
-##### 3.3 训练模型
-
-##### 3.4 查看效果
 
 
 
