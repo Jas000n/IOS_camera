@@ -1,0 +1,362 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9C81AC2D2809685E00BE49BE /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C81AC2C2809685E00BE49BE /* icon.png */; };
+		9C81AC3128096A2500BE49BE /* icon (2).png in Resources */ = {isa = PBXBuildFile; fileRef = 9C81AC3028096A2500BE49BE /* icon (2).png */; };
+		9C81AC3328096A5C00BE49BE /* icon_180.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C81AC3228096A5B00BE49BE /* icon_180.png */; };
+		9CF5FC6E27F1D4DE0049477A /* rgy_classification.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 9CF5FC6D27F1D4DE0049477A /* rgy_classification.mlmodel */; };
+		9CF5FC7027F1DCDF0049477A /* classification.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 9CF5FC6F27F1DCDF0049477A /* classification.mlmodel */; };
+		F4B7DAED207CA492007CB607 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B7DAEC207CA492007CB607 /* AppDelegate.swift */; };
+		F4B7DAEF207CA492007CB607 /* CameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B7DAEE207CA492007CB607 /* CameraController.swift */; };
+		F4B7DAF2207CA492007CB607 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4B7DAF0207CA492007CB607 /* Main.storyboard */; };
+		F4B7DAF4207CA494007CB607 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4B7DAF3207CA494007CB607 /* Assets.xcassets */; };
+		F4B7DAF7207CA494007CB607 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4B7DAF5207CA494007CB607 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9C81AC2C2809685E00BE49BE /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		9C81AC3028096A2500BE49BE /* icon (2).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon (2).png"; sourceTree = "<group>"; };
+		9C81AC3228096A5B00BE49BE /* icon_180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_180.png; sourceTree = "<group>"; };
+		9CF5FC6D27F1D4DE0049477A /* rgy_classification.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = rgy_classification.mlmodel; sourceTree = "<group>"; };
+		9CF5FC6F27F1DCDF0049477A /* classification.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = classification.mlmodel; sourceTree = "<group>"; };
+		F4B7DAE9207CA492007CB607 /* 大数据行程卡检测.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "大数据行程卡检测.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4B7DAEC207CA492007CB607 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F4B7DAEE207CA492007CB607 /* CameraController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraController.swift; sourceTree = "<group>"; };
+		F4B7DAF1207CA492007CB607 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F4B7DAF3207CA494007CB607 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F4B7DAF6207CA494007CB607 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F4B7DAF8207CA494007CB607 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4B7DAE6207CA492007CB607 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F4B7DAE0207CA492007CB607 = {
+			isa = PBXGroup;
+			children = (
+				F4B7DAEB207CA492007CB607 /* ImageRecognition */,
+				F4B7DAEA207CA492007CB607 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4B7DAEA207CA492007CB607 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4B7DAE9207CA492007CB607 /* 大数据行程卡检测.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4B7DAEB207CA492007CB607 /* ImageRecognition */ = {
+			isa = PBXGroup;
+			children = (
+				9CF5FC6F27F1DCDF0049477A /* classification.mlmodel */,
+				9CF5FC6D27F1D4DE0049477A /* rgy_classification.mlmodel */,
+				F4B7DAEC207CA492007CB607 /* AppDelegate.swift */,
+				F4B7DAEE207CA492007CB607 /* CameraController.swift */,
+				F4B7DAF0207CA492007CB607 /* Main.storyboard */,
+				F4B7DAF3207CA494007CB607 /* Assets.xcassets */,
+				F4B7DAF5207CA494007CB607 /* LaunchScreen.storyboard */,
+				F4B7DAF8207CA494007CB607 /* Info.plist */,
+				9C81AC3228096A5B00BE49BE /* icon_180.png */,
+				9C81AC3028096A2500BE49BE /* icon (2).png */,
+				9C81AC2C2809685E00BE49BE /* icon.png */,
+			);
+			path = ImageRecognition;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4B7DAE8207CA492007CB607 /* 大数据行程卡检测 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4B7DAFB207CA494007CB607 /* Build configuration list for PBXNativeTarget "大数据行程卡检测" */;
+			buildPhases = (
+				F4B7DAE5207CA492007CB607 /* Sources */,
+				F4B7DAE6207CA492007CB607 /* Frameworks */,
+				F4B7DAE7207CA492007CB607 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "大数据行程卡检测";
+			productName = ImageRecognition;
+			productReference = F4B7DAE9207CA492007CB607 /* 大数据行程卡检测.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4B7DAE1207CA492007CB607 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 1230;
+				ORGANIZATIONNAME = AppCoda;
+				TargetAttributes = {
+					F4B7DAE8207CA492007CB607 = {
+						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 1130;
+					};
+				};
+			};
+			buildConfigurationList = F4B7DAE4207CA492007CB607 /* Build configuration list for PBXProject "大数据行程卡检测" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F4B7DAE0207CA492007CB607;
+			productRefGroup = F4B7DAEA207CA492007CB607 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4B7DAE8207CA492007CB607 /* 大数据行程卡检测 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4B7DAE7207CA492007CB607 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C81AC2D2809685E00BE49BE /* icon.png in Resources */,
+				F4B7DAF7207CA494007CB607 /* LaunchScreen.storyboard in Resources */,
+				9C81AC3128096A2500BE49BE /* icon (2).png in Resources */,
+				F4B7DAF4207CA494007CB607 /* Assets.xcassets in Resources */,
+				9C81AC3328096A5C00BE49BE /* icon_180.png in Resources */,
+				F4B7DAF2207CA492007CB607 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4B7DAE5207CA492007CB607 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CF5FC7027F1DCDF0049477A /* classification.mlmodel in Sources */,
+				F4B7DAEF207CA492007CB607 /* CameraController.swift in Sources */,
+				9CF5FC6E27F1D4DE0049477A /* rgy_classification.mlmodel in Sources */,
+				F4B7DAED207CA492007CB607 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F4B7DAF0207CA492007CB607 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4B7DAF1207CA492007CB607 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F4B7DAF5207CA494007CB607 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4B7DAF6207CA494007CB607 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F4B7DAF9207CA494007CB607 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F4B7DAFA207CA494007CB607 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4B7DAFC207CA494007CB607 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 58LGYB92JJ;
+				INFOPLIST_FILE = ImageRecognition/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.edu.neu.Jason.Travel-code";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F4B7DAFD207CA494007CB607 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 58LGYB92JJ;
+				INFOPLIST_FILE = ImageRecognition/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.edu.neu.Jason.Travel-code";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4B7DAE4207CA492007CB607 /* Build configuration list for PBXProject "大数据行程卡检测" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4B7DAF9207CA494007CB607 /* Debug */,
+				F4B7DAFA207CA494007CB607 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4B7DAFB207CA494007CB607 /* Build configuration list for PBXNativeTarget "大数据行程卡检测" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4B7DAFC207CA494007CB607 /* Debug */,
+				F4B7DAFD207CA494007CB607 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4B7DAE1207CA492007CB607 /* Project object */;
+}
